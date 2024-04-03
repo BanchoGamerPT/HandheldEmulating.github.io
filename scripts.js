@@ -21,23 +21,27 @@ template.innerHTML =
             </li>
             <li>
                 <a href="product.html" target="_self" id=product>🎮 Product</a>
-                <a href="product.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_4>🎮</a>
+                <a href="product.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_2>🎮</a>
+            </li>
+            <li>
+                <a href="downloads.html" target="_self" id=downloads>🔗 Downloads</a>
+                <a href="downloads.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_3>🔗</a>
             </li>
             <li>
                 <a href="about.html" target="_self" id=about>🔎 About</a>
-                <a href="about.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_5>🔎</a>
+                <a href="about.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_4>🔎</a>
             </li>
             <li>
                 <a href="planning.html" target="_self" id=planning>📅 Planning</a>
-                <a href="planning.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_3>📅</a>
+                <a href="planning.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_5>📅</a>
             </li>
             <li>
                 <a href="changelog.html" target="_self" id=changelog>📝 Blog</a>
-                <a href="changelog.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_2>📝</a>
+                <a href="changelog.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_6>📝</a>
             </li>
             <li>
                 <a href="contacts.html" target="_self" id=contacts>🌐 Contacts</a>
-                <a href="contacts.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_6>🌐</a>
+                <a href="contacts.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_7>🌐</a>
             </li>
         </ul>
         <br>
@@ -155,7 +159,7 @@ function toggleMenu() {
     menu.style.left = menu.style.left === '0px' ? -width + 'px' : '0px';
 
     // Toggling the emoji buttons on the menu
-    for (let i = 1; i < 7; i++){
+    for (let i = 1; i < 8; i++){
         // Access the buttons element
         var buttons = document.getElementById("menu_button_" + i);
 
