@@ -49,6 +49,63 @@
 <body>
     <main>
         <section id="changelog_OnPage">
+            <div id="Update_27">
+                <h3 class="general_title">Made code to use two different controllers with ESP-NOW (05/05/2024):</h3>
+                <h4>[Lucas]</h4>
+        
+                <p class="tabbingLVL2">
+                    As we want Bluetooth controllers that are on two different sides of the console,
+                    we also have to separate them in two different microcontrollers.
+                    To make MiSTer recognize it as only one Bluetooth device we need to
+                    send data from one microcontroller to another.<br><br>
+                    To do so we use an ESP protocol called
+                    <a href="https://www.espressif.com/en/solutions/low-power-solutions/esp-now" target="_blank">ESP-NOW</a>
+                    (that works with the ESP8266, ESP32, ESP32-S and ESP32-C SoCs).
+                    This protocol is faster, allows for long-distance communication and is ultra low-power
+                    which makes it awesome to transfer data between two ESP32 microcontrollers.<br><br>
+                    To recap, we grab the data from the inputs from one microcontroller,
+                    send them to the other one via ESP-NOW who then processes their own inputs
+                    and the ones received by ESP-NOW and sends them through Bluetooth to MiSTer.<br><br>
+                </p>
+                <br>
+            </div>
+
+            <div id="Update_26">
+                <h3 class="general_title">Joysticks and Buttons Used With Bluetooth (05/05/2024):</h3>
+                <h4>[Lucas]</h4>
+
+                <p class="tabbingLVL2">
+                    Crafted code to make use of the joysticks and buttons
+                    and send the signals with the previously mentioned
+                    <a href="https://github.com/lemmingDev/ESP32-BLE-Gamepad" target="_blank">ESP32 BLE Gamepad Library</a>
+                    through Bluetooth.<br><br>
+                    
+                    <video class="center format_video_v" height="auto" controls>
+                        <source src="Video/Joystick_with_Bluetooth.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video><br>
+                </p>
+                <br>
+            </div>
+
+            <div id="Update_25">
+                <h3 class="general_title">MiSTer Recognizing Bluetooth! (03/05/2024):</h3>
+                <h4>[João P.]</h4>
+        
+                <p class="tabbingLVL2">
+                    We made some code using the
+                    <a href="https://github.com/lemmingDev/ESP32-BLE-Gamepad" target="_blank">ESP32 BLE Gamepad Library</a>
+                    to connect to devices via bluetooth and being recognized as a Bluetooth controller.<br>
+                    To make sure it was recognized by MiSTer we went ahead and tested it out:<br><br>
+
+                    <video class="center format_video_h" height="auto" controls>
+                        <source src="Video/Bluetooth_MiSTer_Pog.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video><br>
+                </p>
+                <br>
+            </div>
+
             <div id="Update_24">
                 <h3 class="general_title">Speaker & Aux Test (2/05/2024):</h3>
                 <h4>[Bernardo]</h4>
@@ -69,6 +126,7 @@
                 </p>
                 <br>
             </div>
+
             <div id="Update_23">
                 <h3 class="general_title">Project Reunion [No. 5] (24/04/2024):</h3>
                 <h4>[Everyone]</h4>
