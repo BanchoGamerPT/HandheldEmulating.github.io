@@ -6,7 +6,7 @@ const template = document.createElement("template");
 template.innerHTML =
     `
     <header class="initialHeader" id="header">
-        <h1>Handheld Emulating Digital Console</h1>
+        <h1>Handheld Digital Emulating Console</h1>
     </header>
 
     <div class="menu-toggle" onclick="toggleMenu()" id="menuButton">☰</div>
