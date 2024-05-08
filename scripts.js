@@ -40,8 +40,12 @@ template.innerHTML =
                 <a href="changelog.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_6>📝</a>
             </li>
             <li>
+                <a href="inquiry.html" target="_self" id=inquiry>❓ Inquiry</a>
+                <a href="inquiry.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_7>❓</a>
+            </li>
+            <li>
                 <a href="contacts.html" target="_self" id=contacts>🌐 Contacts</a>
-                <a href="contacts.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_7>🌐</a>
+                <a href="contacts.html" target="_self" style="float: right; margin-right: var(--emoji-margin)" id=menu_button_8>🌐</a>
             </li>
         </ul>
         <br>
@@ -159,7 +163,7 @@ function toggleMenu() {
     menu.style.left = menu.style.left === '0px' ? -width + 'px' : '0px';
 
     // Toggling the emoji buttons on the menu
-    for (let i = 1; i < 8; i++){
+    for (let i = 1; i < 9; i++){
         // Access the buttons element
         var buttons = document.getElementById("menu_button_" + i);
 
