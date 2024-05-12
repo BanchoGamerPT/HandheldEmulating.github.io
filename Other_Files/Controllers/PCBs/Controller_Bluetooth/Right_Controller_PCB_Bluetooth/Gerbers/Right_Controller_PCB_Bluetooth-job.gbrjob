@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.2"
     },
-    "CreationDate": "2024-05-12T00:24:23+01:00"
+    "CreationDate": "2024-05-13T00:31:24+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Right_Controller_PCB_Bluetooth",
       "GUID": "52696768-745f-4436-9f6e-74726f6c6c65",
-      "Revision": "V1.1"
+      "Revision": "V1.2"
     },
     "Size": {
       "X": 53.05,
