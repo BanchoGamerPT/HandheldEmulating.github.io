@@ -1743,13 +1743,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 118.11) (xy 205.74 118.11)
+			(xy 198.12 123.19) (xy 205.74 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c9eb515-a4bc-48af-937e-3b630838df96")
+		(uuid "3f01afb4-3b8d-4c5b-bf71-e8acaa6fd712")
 	)
 	(wire
 		(pts
@@ -1760,16 +1760,6 @@
 			(type default)
 		)
 		(uuid "3fc3cab4-089b-4d79-97f2-4cfffac51b88")
-	)
-	(wire
-		(pts
-			(xy 198.12 115.57) (xy 205.74 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b1e85f-22e4-4da0-a21f-8317ff68d955")
 	)
 	(wire
 		(pts
@@ -1853,16 +1843,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 123.19) (xy 205.74 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77e3b514-5658-4884-ae72-9158bc76fb3d")
-	)
-	(wire
-		(pts
 			(xy 200.66 113.03) (xy 205.74 113.03)
 		)
 		(stroke
@@ -1923,6 +1903,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 115.57) (xy 205.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e8c503f-335b-48aa-b5c0-12300a1e8765")
+	)
+	(wire
+		(pts
 			(xy 73.66 138.43) (xy 82.55 138.43)
 		)
 		(stroke
@@ -1950,6 +1940,16 @@
 			(type default)
 		)
 		(uuid "9adea337-1e17-49a0-b39d-2616b5718c47")
+	)
+	(wire
+		(pts
+			(xy 198.12 118.11) (xy 205.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4bae0e5-727c-4a5b-b8b7-354b628cb68a")
 	)
 	(wire
 		(pts
@@ -2010,16 +2010,6 @@
 			(type default)
 		)
 		(uuid "bc1001d6-b02b-4c89-8299-b5b1e6c85793")
-	)
-	(wire
-		(pts
-			(xy 198.12 120.65) (xy 205.74 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1eae65-c507-4a24-b37c-533e3a7e6c35")
 	)
 	(wire
 		(pts
@@ -2123,6 +2113,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 120.65) (xy 205.74 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7edeec-7caf-4f08-bdbd-0ea1ea51f3f8")
+	)
+	(wire
+		(pts
 			(xy 215.9 82.55) (xy 215.9 77.47)
 		)
 		(stroke
@@ -2142,7 +2142,7 @@
 		(uuid "ff803876-c3e5-456c-818d-fca1b4838595")
 	)
 	(label "RIGHT"
-		(at 198.12 118.11 180)
+		(at 198.12 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2285,7 +2285,7 @@
 		(uuid "b4fbb427-5131-4116-8d05-14146e2465e8")
 	)
 	(label "LEFT"
-		(at 198.12 120.65 180)
+		(at 198.12 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2296,7 +2296,7 @@
 		(uuid "c3f51392-6bb6-4b48-a70e-ce3fa91885c6")
 	)
 	(label "UP"
-		(at 198.12 123.19 180)
+		(at 198.12 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2318,7 +2318,7 @@
 		(uuid "d82b9795-59ad-4426-9278-e9536230bfb2")
 	)
 	(label "DOWN"
-		(at 198.12 115.57 180)
+		(at 198.12 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

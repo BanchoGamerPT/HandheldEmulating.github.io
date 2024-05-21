@@ -37,7 +37,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.0,
+          "drill": 0.5,
           "height": 3.0,
           "width": 3.0
         },
@@ -61,11 +61,9 @@
       "drc_exclusions": [
         "silk_overlap|131630800|50854751|711fdfda-1413-427d-b563-381f1bbf2aa0|3fc7efc3-ed90-4281-bdac-f6800a1f962c",
         "silk_overlap|138511752|51283322|711fdfda-1413-427d-b563-381f1bbf2aa0|abf27fcd-a6cf-45b5-b2eb-f8768065d4b3",
-        "unconnected_items|137000000|102750000|ebce8c26-3415-4f5d-86b4-ccad2f061d73|4b2a48c9-784f-4054-82ce-ffe69dbdc3c1",
         "unconnected_items|137411589|120200500|d841a960-9996-4db8-87be-771acbf63afb|89cc6ca0-8393-4e8b-8c28-f1205fe2e857",
         "unconnected_items|138380800|53649932|cd1f238f-1a8e-49fd-b624-a954ec3068ce|a75ec3b7-7786-4e9c-a03d-b1e11bcefed6",
         "unconnected_items|146000000|107000000|1f91e997-964f-4e43-bd6f-bf87a239d141|606df2a5-8f2c-4b0e-8370-03c749d58436",
-        "unconnected_items|146000000|89250000|18243c74-8501-45e9-ac20-c6983d84f105|a8abd894-3242-40a6-be4d-40fc07c81dcf",
         "unconnected_items|154750000|98250000|f64f03d1-c95e-4088-81b7-abd50c3a882a|ca402081-0335-410d-9011-79f8c114c563",
         "unconnected_items|166500000|61000000|d35735ce-d75a-42d8-b1ad-2ba357cfec52|e398a90f-15ea-4894-ba1f-fe7596263b63"
       ],
