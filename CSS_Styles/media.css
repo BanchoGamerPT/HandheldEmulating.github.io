@@ -2,8 +2,8 @@
 /*********Screen Specific Style Changes**********/
 /************************************************/
 
-/* Extra small devices like phones*/
-@media only screen and (max-width: 600px) {
+/* EXTRA EXTRA small devices like phones*/
+@media only screen and (max-width: 380px) {
     .col-1 {
         width: 25% !important;
     }
@@ -18,19 +18,107 @@
         --menu-img-height: 13px;
         --emoji-margin: 10px;
 
-        --fotos-h-width: 400px;
+        --fotos-h-width: 175px;
         --fotos-h-height: auto;
         --fotos-h-min-height: var(var(--fotos-h-width));
         
-        --fotos-v-width: 200px;
+        --fotos-v-width: 150px;
         --fotos-v-height: auto;
         --fotos-v-min-height: var(var(--fotos-v-width));
 
-        --videos-h-width: 400px;
+        --videos-h-width: 175px;
         --videos-h-height: auto;
         --videos-h-min-height: var(var(--videos-h-width));
 
-        --videos-v-width: 200px;
+        --videos-v-width: 150px;
+        --videos-v-height: auto;
+        --videos-v-min-height: var(var(--videos-v-width));
+    }
+
+    /*Styling changes for everything*/
+    * {
+        font-size: small;
+    }
+
+    h1 { 
+        /* Margin added to acomodate menu button */
+        margin-left: 65px;
+    }
+}
+
+/* EXTRA small devices like phones*/
+@media only screen and (min-width: 380px) {
+    .col-1 {
+        width: 25% !important;
+    }
+
+    [class*="col-"] {
+        width: 75%;
+    }
+
+    /*Global css variables*/
+    :root {
+        --menu-box-width: 300px;
+        --menu-img-height: 13px;
+        --emoji-margin: 10px;
+
+        --fotos-h-width: 175px;
+        --fotos-h-height: auto;
+        --fotos-h-min-height: var(var(--fotos-h-width));
+        
+        --fotos-v-width: 150px;
+        --fotos-v-height: auto;
+        --fotos-v-min-height: var(var(--fotos-v-width));
+
+        --videos-h-width: 175px;
+        --videos-h-height: auto;
+        --videos-h-min-height: var(var(--videos-h-width));
+
+        --videos-v-width: 150px;
+        --videos-v-height: auto;
+        --videos-v-min-height: var(var(--videos-v-width));
+    }
+
+    /*Styling changes for everything*/
+    * {
+        font-size: small;
+    }
+
+    h1 { 
+        /* Margin added to acomodate menu button */
+        margin-left: 65px;
+    }
+}
+
+/* Extra small devices like phones*/
+@media only screen and (min-width: 410px) {
+    .col-1 {
+        width: 25% !important;
+    }
+
+    [class*="col-"] {
+        width: 75%;
+    }
+
+    /*Global css variables*/
+    :root {
+        --menu-box-width: 300px;
+        --menu-img-height: 13px;
+        --emoji-margin: 10px;
+
+        --fotos-h-width: 265px;
+        --fotos-h-height: auto;
+        --fotos-h-min-height: var(var(--fotos-h-width));
+        
+        --fotos-v-width: 250px;
+        --fotos-v-height: auto;
+        --fotos-v-min-height: var(var(--fotos-v-width));
+
+        --videos-h-width: 265px;
+        --videos-h-height: auto;
+        --videos-h-min-height: var(var(--videos-h-width));
+
+        --videos-v-width: 250px;
         --videos-v-height: auto;
         --videos-v-min-height: var(var(--videos-v-width));
     }
