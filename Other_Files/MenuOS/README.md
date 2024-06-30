@@ -4,4 +4,4 @@
 - Follow instructions in https://mister-devel.github.io/MkDocs_MiSTer/developer/mistercompile/#general-prerequisites-for-arm-cross-compiling to compile
 - To finish, you replace original "MiSTer" file in the MicroSD card for the new one
 
-**Alternatively you can skip the whole process and use the "MiSTer" file already present in this directory**
+==**Alternatively you can skip the whole process and use the "MiSTer" file already present in this directory**==
